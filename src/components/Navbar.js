@@ -36,7 +36,7 @@ const Navbar = () => {
             const {id, href, icon} = link;
             return(
              <li key={id}>
-              <a href={href} rel="noreferrer" target="_blank" className="nav-icon"><i className={icon}></i>
+              <a href={href} rel="noopener noreferrer" target="_blank" className="nav-icon"><i className={icon}></i>
               </a>
              </li>
             );
